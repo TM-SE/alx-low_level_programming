@@ -10,12 +10,12 @@ int main(void)
 	char abc;
 	char small;
 
-	for( abc = 'a'; abc <= 'z'; abc++)
+	for (abc = 'a'; abc <= 'z'; abc++)
 	{
 		small = tolower(abc);
 		putchar(small);
 	}
-	for ( abc = 'A'; abc <= 'Z'; abc++)
+	for (abc = 'A'; abc <= 'Z'; abc++)
 	{
 		putchar(abc);
 	}
