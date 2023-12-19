@@ -6,13 +6,12 @@
  */
 int _islower(int c)
 {
-	if (_islower(c) == 1)
+	c = 97;
+
+	while (c <= 122)
 	{
 		return 1;
 	}
-	else
-	{
-		return 0;
-	}
+
 }
 
