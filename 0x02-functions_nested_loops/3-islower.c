@@ -11,6 +11,7 @@ int _islower(int c)
 	while (c <= 122)
 	{
 		return 1;
+		c++;
 	}
 
 }
