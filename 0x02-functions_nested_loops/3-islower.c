@@ -6,7 +6,7 @@
  */
 int _islower(int c)
 {
-	if (_islower(c))
+	if (_islower(c) == 1)
 	{
 		return 1;
 	}
