@@ -6,13 +6,10 @@
  */
 int _islower(int c)
 {
-	c = 97;
-
-	while (c <= 122)
+	if ( c >= 'a' && c <= 'z')
 	{
-		return 1;
-		c++;
+		return(1);
 	}
+	return (0);
 
 }
-
