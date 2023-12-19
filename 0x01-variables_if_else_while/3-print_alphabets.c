@@ -9,7 +9,6 @@ int main(void)
 {
 	char abc;
 	char small;
-	char upper;
 
 	for( abc = 'a'; abc <= 'z'; abc++)
 	{
