@@ -7,11 +7,15 @@
 int main(void)
 {
 	char abc;
+	char small;
+	char upper;
 
 	for( abc = 'a'; abc <= 'z'; abc++)
 	{
-		putchar(tolower(abc));
-		putchar(toupper(abc));
+		small = tolower(abc);
+		putchar(small);
+		upper= toupper(abc);
+		putchar(upper);
 	}
 	putchar('\n');
 
