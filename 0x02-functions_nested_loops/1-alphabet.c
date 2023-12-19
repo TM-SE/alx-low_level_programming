@@ -13,4 +13,6 @@ int main(void)
 		_putchar(abc);
 	}
 	_putchar('\n');
+
+	return (0);
 }
