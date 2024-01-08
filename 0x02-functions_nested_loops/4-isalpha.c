@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * _isalpha - checks for uppercase char
- *
+ *Return: Return 1 and 0
  * @c: character to be evaluated
  */
 int _isalpha(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c >= 65 && c <= 90)
 	{
-		if (c >= 'a' && c <= 'z')
+		if (c >= 97 && c <= 122)
 		return (1);
 	}
 	return (0);
