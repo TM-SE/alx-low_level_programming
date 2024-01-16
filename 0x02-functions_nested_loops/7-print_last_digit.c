@@ -9,7 +9,13 @@ int print_last_digit(int r)
 
 	lastd = r % 10;
 
-	return(lastd);
+	return (lastd);
+
+	if ( lastd < 0)
+	{
+	lastd = lastd * -1;
+	return (lastd);
+	}
 
 
 
