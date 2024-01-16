@@ -1,6 +1,7 @@
 #include "main.h"
 /**
 *print_last_digit - funcction to print last digit
+*@r: number to be evaluated
 *Return: Return the last digit
 */
 int print_last_digit(int r)
